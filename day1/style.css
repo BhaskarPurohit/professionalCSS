@@ -1,0 +1,15 @@
+/* classname starts with dot . */
+
+
+.title{
+    color: red;
+    font-family: system-ui;
+    text-decoration: underline;
+
+}
+
+.center{
+    text-align: center;
+}
+
+/* bhox model */
