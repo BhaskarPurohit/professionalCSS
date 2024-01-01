@@ -1,4 +1,4 @@
-/* classname starts with dot . */
+/* classname starts with dot .
 
 
 /* .title{
@@ -19,18 +19,81 @@
 
 
 */
-
+/*
 .box{
-    padding: 50px;
+    padding: 5px;
     border-radius: 20px;
     margin: 50px;
     width: 350px;
-    border: 5px solid red;
+    border: 1px solid lightgray;
     font-family:system-ui;
 }
 
 .box-img{
     width: 100%;
     border-radius: 20px;
+    border-bottom: 1px solid lightgray;
+
+
+} */
+
+/* .card{
+    width: 270px;
+    margin: 10px auto;  //auto means depending on size of screen it gives equal distance from left and right
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    font-family: system-ui;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+} */
+
+.bg{
+    padding:80px 40px;  //top-bottom left-right
+    border-radius: 60px;
+    margin: 20px auto;
+    width: 600px;
+    color: white;
+    font-family: system-ui;
+    background-color: purple;
+    text-align: center;
 
 }
+
+.btn{
+    background-color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 14px 32px;
+    font-size: 16px;
+}
+
+
+.box{
+    border: 2px solid blue;
+    width: 500px;
+    height: 600px;
+    border-radius:15px;
+    padding: 0px;
+
+}
+
+
+.box-img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    /* padding: 2px; */
+}
+
+
+
+
+
+
+
+
+
+
