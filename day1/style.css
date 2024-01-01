@@ -1,7 +1,7 @@
 /* classname starts with dot . */
 
 
-.title{
+/* .title{
     color: red;
     font-family: system-ui;
     text-decoration: underline;
@@ -10,6 +10,27 @@
 
 .center{
     text-align: center;
+} */
+
+/* box model */
+/* border => thickness style color
+ padding => when space inside is required
+ margin => when space outside is required
+
+
+*/
+
+.box{
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px;
+    width: 350px;
+    border: 5px solid red;
+    font-family:system-ui;
 }
 
-/* bhox model */
+.box-img{
+    width: 100%;
+    border-radius: 20px;
+
+}
