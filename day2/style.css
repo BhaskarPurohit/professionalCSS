@@ -49,9 +49,42 @@
 }
 
 .red{
-    
+    height:130px;
+    width: 130px;
+    background-color: red;
 }
 
+.green{
+    position: absolute;
+
+    height:100px;
+    width: 100px;
+    background-color: green;
+}
+
+.blue{
+    height:180px;
+    width: 180px;
+    background-color: blue;
+}
+
+
+.parent{ 
+    position: relative;
+    width:600px;
+    height: 400px;
+    margin: 30px auto;
+    background-color: blueviolet;
+}
+
+.child{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+}
 
 
 
