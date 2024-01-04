@@ -86,7 +86,19 @@
     background-color: orangered;
 }
 
+.bg{
+    width: 670px;
+    margin:30px auto;
 
+}
+
+.bg-img{
+    width: 100%;
+}
+
+.bg-content{
+    position: absolute;
+}
 
 
 
