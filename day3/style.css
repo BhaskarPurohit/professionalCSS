@@ -1,0 +1,19 @@
+body{
+    font-family: system-ui;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+}
+
+.card-img{
+    width:100%;
+}
+
+/* by using flex all child elements will come side by side */
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
