@@ -20,3 +20,40 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.demo{
+    margin: 60px auto;
+    width: 520px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.demo-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.user{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    margin-bottom: 24px;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.name{
+    margin:0;
+}
+
+.username{
+    margin:0;
+    font-size: 14px;
+    color: gray;
+}
