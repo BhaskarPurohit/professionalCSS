@@ -64,3 +64,13 @@ body{
     align-items: center;
     margin-bottom: 24px;
 }
+
+.card h3{
+    font-size: 17px;
+    margin-bottom:0;
+}
+
+.card p{
+    font-size: 14px;
+    margin: 6px 0;
+}
