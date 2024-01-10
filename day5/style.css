@@ -1,0 +1,60 @@
+/*Responsive Social Media*/
+
+body{
+    font-family: system-ui;
+}
+
+.container{
+    display: flex;
+    width: 990px;
+    margin: 50px auto;
+    /* height: 100vh; */
+    /* background-color: blueviolet; */
+}
+
+.feeds{
+    width: 590px;
+    /* background-color: orange; */
+    /* height: 100vh; */
+}
+
+.feed{
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+.feed-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.sidebar{
+    width: 400px;
+    /* background-color: blue; */
+    /* height: 100vh; */
+}
+
+.profile{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 24px;
+    align-items: center;
+
+}
+
+.user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name{
+    margin:0;
+    
+}
+
+.user-name{
+    margin:0;
+    font-size: 
+}
