@@ -107,6 +107,29 @@
     box-shadow: 2px 2px 2px 2px;
 }
 
+.demo{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    margin-top: 40px;
+    animation-name: virat;
+    animation-duration: 3s;
+    /* margin-left: 600px; */
+    
+}
+
+/* animation name, animation duration and animation directions has to be set */
+
+@keyframes virat{
+    from{  //where it started
+
+    }
+    to{ //where it ends
+        margin-left: 600px;
+        transform: rotate(360deg);
+    }
+}
+
 
 
 
