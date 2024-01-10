@@ -1,0 +1,123 @@
+/*Media Queries*/
+
+
+
+
+@media(min-width: 600px){  //applies on screens of 600px width and beyond
+    body{
+        font-family: system-ui;
+    }
+    
+    .profile{
+        width: 560px;
+        margin: 40px auto;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .user{
+        height: 170px;
+        border-radius: 12px;
+    }
+    
+    .btn{
+        padding: 16px 13px;
+        font-size: 16px;
+        border-radius: 12px;
+        border: none;
+        background-color: black;
+        color: white;
+    
+    }
+    
+    .intro{
+        margin-top: 0;
+    }
+    
+    .desc{
+        color: rgb(71,71,71);
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 600px){ //applies to screens of 600px width and less
+    body{
+        font-family: system-ui;
+    }
+    
+    .profile{
+        text-align: center;
+    }
+    
+    .user{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .btn{
+        padding: 16px 40px;
+        font-size: 16px;
+        border-radius: 40px;
+        border: none;
+        background-color: black;
+        color: white;
+    
+    }
+    
+    .intro{
+        margin-top: 0;
+    }
+    
+    .desc{
+        color: rgb(71,71,71);
+        font-size: 14px;
+    }
+}
+
+/*standard break points
+ small: 586px
+ laptop: 992px;
+ big screens 1200 and more
+
+*/
+
+
+/*animations*/
+
+.card{
+    transition: 0.5s;
+    width: 270px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card:hover{    
+    /* transform: rotate(180deg); */
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
